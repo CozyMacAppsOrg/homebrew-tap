@@ -14,7 +14,7 @@ cask "cozyzip" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "CozyZip.app"
   binary "#{appdir}/CozyZip.app/Contents/Helpers/cozyzip"
