@@ -3,7 +3,9 @@
 Homebrew casks for [CozyMacApps](https://cozymacapps.com).
 
 ```bash
-brew install --cask cozymacappsorg/tap/cozyzip
+brew tap cozymacappsorg/tap
+brew trust cozymacappsorg/tap      # Homebrew only loads casks from taps you trust
+brew install --cask cozyzip
 ```
 
 | Cask | App |
